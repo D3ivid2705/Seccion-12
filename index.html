@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Restaurante delicioso</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#menu">Menú</a></li>
+        <li><a href="#reservas">Reservas</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="inicio" class="hero">
+    <div class="hero-content">
+      <h1>¡Bienvenido al Restaurante delicioso!</h1>
+      <p>Disfruta de nuestra exquisita comida en un ambiente acogedor.</p>
+      <a href="#reservas" class="btn">Reserva ahora</a>
+    </div>
+  </section>
+
+  <section id="menu" class="menu">
+    <div class="container">
+      <h2>Descubre nuestro menú</h2>
+      <p>Tenemos una amplia variedad de platos elaborados con los mejores ingredientes.</p>
+      <div class="menu-items">
+        <div class="menu-item">
+          <img src="bandejapaisa.jpg" alt="Plato 1">
+          <h3>Bandeja Paisa</h3>
+          <p>Descripción del plato 1.</p>
+        </div>
+        <div class="menu-item">
+          <img src="hamburguesa.jpg" alt="Plato 2">
+          <h3>Hamburguesa</h3>
+          <p>Descripción del plato 2.</p>
+        </div>
+        <div class="menu-item">
+          <img src="niidea.jpg" alt="Plato 3">
+          <h3>Plato 3</h3>
+          <p>Descripción del plato 3.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="reservaForm" class="reservations">
+    <div class="container">
+      <h2>Realiza tu reserva</h2>
+      <p>Reserva una mesa para disfrutar de una experiencia gastronómica única.</p>
+      <form>
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+        <input type="email" id="email" name="email" placeholder="Correo electrónico">
+        <input type="datetime-local" id="fechaHora" name="fechaHora" placeholder="Fecha y hora">
+        <input type="number" id="numPersonas" name="numPersonas" placeholder="Número de personas">
+        <button type="submit" class="btn">Reservar</button>
+      </form>
+    </div>
+  </section>
+
+  <section id="contacto" class="contact">
+    <div class="container">
+      <h2>Contacto</h2>
+      <p>Estamos encantados de ayudarte. Ponte en contacto con nosotros.</p>
+      <form>
+        <input type="text" placeholder="Nombre">
+        <input type="email" placeholder="Correo electrónico">
+        <textarea placeholder="Mensaje"></textarea>
+        <button type="submit" class="btn">Enviar mensaje</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Restaurante delicioso. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+<script src="script.js"></script>
+</body>
+</html>
